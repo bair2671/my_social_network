@@ -1,0 +1,67 @@
+/** TableView */
+.table-view .column-header{
+    -fx-background-color: #0859b5;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-border-color: white;
+    -fx-border-width: .1;
+}
+
+.table-view .scroll-bar:horizontal{
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+    -fx-opacity: 0;
+    -fx-padding:-7;
+}
+
+/** Pagination */
+.pagination .pagination-control .button, .pagination .toggle-button{
+    -fx-background-color: #0859b5;
+    -fx-text-fill: white;
+}
+
+.pagination .pagination-control .left-arrow, .right-arrow{
+    -fx-background-color: white;
+}
+
+.pagination .pagination-control .toggle-button:selected {
+    -fx-background-color: #053b7c;
+}
+
+/** Button */
+.button {
+    -fx-background-color: #0859b5;
+    -fx-text-fill: white;
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+
+.buttonGreen {
+    -fx-background-color: #00aa00;
+    -fx-text-fill: white;
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+
+.buttonWhite {
+    -fx-background-color: white;
+    -fx-text-fill: #555555;
+    -fx-border-color: #bbbbbb;
+    -fx-border-width: 1px;
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+
+/** Label */
+.labelBig{
+    -fx-font-weight: bold;
+    -fx-font-size: 13;
+}
+
+
